@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(118, 153, 141);
+}
+ul, li,a {
+    display: inline;
+    margin-left: 3em;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    float: left;
+    color: #fff;
+ }
+ .LUCA{
+     font-size: 3em;
+     font-style: oblique;
+     font-family: 'Times New Roman', Times, serif;
+     float: left;
+     color: teal;
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    background-color: black;
+}
+  .content{
+     color: #fff;
+     font-family: 'Times New Roman';
+     object-fit:cover;
+     background-image:url("images/Sandals.jpg");
+     background-repeat: x-repeat;
+     background-position: 300px;
+     box-sizing: border-box;
+     padding: 200px 150px 100px 120px;
+     text-align: center;
+     border:inherit  1px;
+     
+ }
+ .h2, .h3, .h4{
+     float:left;
+     padding-bottom: 20px;
+     margin-bottom: 30px;
+ }
+.h2 {
+     border:inset 1px;
+     border-radius: 10px;
+     box-shadow: 4px 2px 3px 5px rgb(29, 25, 26);
+     padding: 10em;
+     padding-top: 1em;
+     padding-left: 4em;
+     height: 20px ;
+     width: 200px ;
+     margin: 0px 60px 0px 60px;
+ }
+ .service {
+     text-align: center;
+     box-align: inline;
+ }
+  .h3 {
+           border:inset 1px;
+           border-radius:10px ;
+           box-shadow: 4px 2px 3px 5px rgb(29, 25, 26);
+           padding:10em;
+           padding-top: 1em;
+           padding-left: 4em;
+           height: 20px ;
+           width: 200px;
+           margin-right: 60px;
+ }
+ .h4 {
+    border:inset 1px;
+    border-radius:10px ;
+    box-shadow: 4px 2px 3px 5px rgb(29, 25, 26);
+    padding:10em;
+    padding-top: 1em;
+    padding-left: 4em;
+    height: 20px ;
+    width: 200px;
+ }
+ .company {
+    border: inset 2px;
+   height: 80%;
+   width: 89%;
+   padding:60px ;
+   box-shadow: 3px 3px 3px 3px  rgb(121, 88, 88);
+} 
+ img {
+    width:200px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 5em;
+    margin-top: -6em;
+    
+  }
+form > .card{
+    padding:10em ;
+    border:solid 1px ;
+    box-shadow: 3px 3px 3px 3px teal;
+    padding-left: 2em;
+    border-radius: 10px;
+    padding-top: 3em;
+    color: rgb(89, 163, 233);
+    width: 100px;
+    height: 200px;
+    margin: 10px 30px;
+    background-color: rgb(77, 66, 66);
+}
+.card1{
+    border: transparent 1px black;
+    width: 20px;
+    padding:50px ;
+}
+.service > button {
+    border: inset 1px;
+    background-color: teal;
+    box-shadow: 2px 2px rgb(98, 128, 128);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+form > #card3 {
+     border: 1px inset;
+     padding: 10px;
+     height: 170px;
+     width: 300px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 3px 1px rgb(75, 66, 66);
+     background-color: rgb(141, 89, 89);
+     margin: 0px 10px 300px 100px   ;
+}
+#card3> button {
+    border:1px inherit;
+    border-radius: 5px;
+    margin:0px 12px;
+}
+input {
+    border: none;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+form {
+    float: left;
+    margin-bottom: 70px;   
+}
+span {
+    margin: 10px 110px 0px 150px;
+    background-color:rgb(70, 40, 40);
+    padding:2px 3px 5px 5px;
+    color: antiquewhite;
+
+}
+footer{
+    margin: 300px;
+
+}

@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(241, 246, 246);
+    display: block;
+}
+.logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: 40px;
+
+}
+.fa-shopping-cart{
+    color: orangered;
+    margin-left: 80vh;
+}
+.header{
+    position: sticky;
+    
+}
+li{
+    display:line;
+    padding-left: 40px;
+    float:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    list-style-type:none ;
+}
+ul{
+    
+    margin-left: 300px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    position: relative;
+  
+}
+.card1{
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    height: 400px;
+    width:370px ;
+    padding-top: 30px;
+    box-shadow: rgb(237, 231, 231) 3px 2px 2px 3px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+    position: relative;
+}
+.card2{
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    height: 450px;
+    width:370px ;
+    padding-top: 30px;
+    box-shadow: rgb(211, 206, 206) 3px 2px 2px 3px;
+    border-radius: 10px;
+    margin-top: 70px;
+    position: relative;
+}
+.card3{
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    height: 400px;
+    width:370px ;
+    padding-top: 30px;
+    box-shadow: rgb(213, 208, 208) 3px 2px 2px 3px;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: relative;
+}
+div{
+    float: left;
+    display: inline;
+}
+a{
+    border-top: 1px solid;
+    padding-top: 40px;
+    width: 20px;
+}
+span{
+    color: orangered;
+}
+#jk{
+    color: orangered;
+    margin-left: 710px;
+    font-size: x-large;
+    margin-top: -5em;
+    display: inline;
+}
+.oju>img{
+    float: right;
+    height:700px;
+    width: 500px;
+    margin-top: -36em;
+    margin-left: 1025px ;
+}
+p{
+    font-family: Arial, sans-serif;
+}

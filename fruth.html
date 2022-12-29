@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TESTIMINIAL</title>
+    <link href="fruth.css" rel="stylesheet" type="text/css">
+    <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="header">
+        <div class="logo" style="color:orangered;">Fruity</div>
+     <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>MENU</li>
+        <li>Testimonials</li>
+     </ul>
+      <i class="fa fa-shopping-cart" ></i>
+  </nav><br>
+    <div class="card1">
+         <p>lorem ipsum dolor sit amet consectetur<br>
+         adipisicing elit. Voluptate amet rerum qui tenetur<br>
+            nemo saepe leborum exercitationem deleniti<br>
+          ullam autem eveniet illum ipsum dicta adipisci<br>
+               soluta vero nobis porro officiis?</p><br><br><br>
+         <img src="images/oju.jpg" alt="face 1"><br>
+         <a> Lorem ipsum dolor</a><br>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+     </div>
+     <div class="card2" >
+         <p>lorem ipsum dolor sit amet consectetur<br>
+         adipisicing elit. Voluptate amet rerum qui tenetur<br>
+            nemo saepe leborum exercitationem deleniti<br>
+          ullam autem eveniet illum ipsum dicta adipisci<br>
+               soluta vero nobis porro officiis?</p><br/><br/><br/>
+         <img src="images/taye.JPG" alt="face 2"><br>
+         <a> Lorem ipsum dolor</a><br>
+         <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+    </div>
+    <div class="card3" >
+         <p>lorem ipsum dolor sit amet consectetur<br>
+         adipisicing elit. Voluptate amet rerum qui tenetur<br>
+            nemo saepe leborum exercitationem deleniti<br>
+          ullam autem eveniet illum ipsum dicta adipisci<br>
+               soluta vero nobis porro officiis?</p><br><br><br>
+          <img src="images/tea.JPG" alt="face 3"><br>
+          <a> Lorem ipsum dolor</a><br>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+    </div>
+    <div class="oju">
+      <img src="images/lok.jpg" alt="fruit">
+    </div>
+    <script>
+      var li =
+          document.createElement("li");
+           li.innerHTML="FACE"
+      var content=
+          document.querySelector("ul")
+            content.appendChild(li)
+
+
+      let parent= document.querySelector("ul");
+      let child= document.querySelectorAll("li")[3];
+           parent.removeChild(child)
+    </script>
+</body>
+</html>
